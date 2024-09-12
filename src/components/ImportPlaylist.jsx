@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import axios from "axios";
 
+
 const ImportPlaylist = () => {
   const [playlists, setPlaylists] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const accessToken = '';
+  const accessToken = import.meta.env.VITE_API_KEY;
 
   const searchPlaylists = async () => {
     try {
