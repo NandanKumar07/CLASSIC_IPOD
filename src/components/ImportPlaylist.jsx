@@ -6,7 +6,7 @@ const ImportPlaylist = () => {
   const [playlists, setPlaylists] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const accessToken = 'BQADgA7-NL-ANEeoEwsart3XIfENyTHnb7yJ8Vyk5zoN8ZwBPJi4S--cQvkA7l98iLGrGqEnQ45GAQLnPNow4ik9iurn8J6rZbWtCgwQOITDcwCANZub8DY6Wg5L6N3PwynIeObcqDM4c5yRY9xrNE-vIUrjvQh1EDa-M8HQitVDm-p5-KUsVHigHHa9O86gkLvCaG5llu1lu7IwDQXRDw3f5ccQxVDQN4Kjv3nbKe4foZiZh9R9zu_31pQEOScvx4JufeVskdArng8_oKrceO9-cx5auGjT';
+  const accessToken = '';
 
   const searchPlaylists = async () => {
     try {
